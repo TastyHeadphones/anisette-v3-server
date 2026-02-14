@@ -27,3 +27,9 @@ Setup your inventory and choose your desired host in the playbook. Tweak your pa
 ```bash
 ansible-playbook -i inventory setup-anisette-v3-ansible.yaml -k
 ```
+
+## Cloudflare (Containers)
+
+This repo includes a Cloudflare Containers Worker (runs `Dockerfile`).
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/TastyHeadphones/anisette-v3-server)

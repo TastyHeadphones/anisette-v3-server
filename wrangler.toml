@@ -1,0 +1,17 @@
+name = "anisette-v3-server"
+main = "src/index.js"
+compatibility_date = "2026-02-14"
+
+[[containers]]
+class_name = "AnisetteContainer"
+image = "./Dockerfile"
+max_instances = 1
+
+[[durable_objects.bindings]]
+name = "ANISETTE"
+class_name = "AnisetteContainer"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["AnisetteContainer"]
+

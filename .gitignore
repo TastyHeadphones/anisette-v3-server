@@ -16,3 +16,6 @@ anisette-v3-server-test-*
 *.lst
 /.idea/
 /*.iml
+node_modules/
+.wrangler/
+.wrangler-dist/

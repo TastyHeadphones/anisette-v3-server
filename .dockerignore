@@ -1,0 +1,17 @@
+.git
+.github
+
+# D build output
+anisette-v3-server
+
+# Cloudflare worker tooling (not needed in the runtime image)
+/cloudflare
+/cloudflare/**
+/src
+/wrangler.toml
+/package.json
+/package-lock.json
+.wrangler
+.wrangler-dist
+node_modules
+**/node_modules
