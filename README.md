@@ -32,4 +32,4 @@ ansible-playbook -i inventory setup-anisette-v3-ansible.yaml -k
 
 This repo includes a Cloudflare Containers Worker (runs `Dockerfile`).
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/TastyHeadphones/anisette-v3-server)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Dadoum/anisette-v3-server)
